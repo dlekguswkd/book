@@ -2,10 +2,10 @@ package com.javaex.book;
 
 public class BookVo {
 	
-	public int bookId;
-	public String title;
-	public String pubs;
-	public String pubDate;
+	private int bookId;
+	private String title;
+	private String pubs;
+	private String pubDate;
 	
 	
 	
