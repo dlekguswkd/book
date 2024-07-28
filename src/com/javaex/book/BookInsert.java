@@ -34,7 +34,7 @@ public class BookInsert {
 			pstmt.setString(1, "신곡");	
 			pstmt.setString(2, "동서문화사");	
 			pstmt.setString(3, "2016-06-09");	
-			pstmt.setString(4, "7");	
+			pstmt.setInt(4, 7);
 			
 			//실행
 			int count = pstmt.executeUpdate();
