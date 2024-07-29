@@ -87,6 +87,10 @@ public class BookSelectALL {
 				System.out.println("error:" + e);
 			}
 		}
+		
+		//출력
+		//개발용
+		//System.out.println(bookList.toString());
 
 		for (int i = 0; i < bookList.size(); i++) {
 
